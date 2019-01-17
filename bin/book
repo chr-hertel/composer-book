@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__.'/../vendor/autoload.php';
+
+use Stoffel\ComposerBook\CreateCommand;
+use Symfony\Component\Console\Application;
+
+$app = new Application('Composer Book', 'dev-master');
+$cmd = new CreateCommand();
+$app->add($cmd);
+$app->setDefaultCommand($cmd->getName(), true);
+
+$app->run();

@@ -1,0 +1,9 @@
+body {
+    font-size: 9pt;
+    font-family: sans-serif;
+}
+.top { font-size: 20pt; }
+.main { font-size: 16pt; }
+.regular { font-size: 13pt; }
+.member { font-size: 10pt; }
+.onetime { font-size: 8pt; }

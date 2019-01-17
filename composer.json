@@ -1,0 +1,19 @@
+{
+    "name": "stoffel/composer-book",
+    "description": "small cli tool to convert composer sources to pdf file",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Stoffel\\ComposerBook\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "symfony/console": "^4.1",
+        "symfony/finder": "^4.1",
+        "erusev/parsedown": "^1.7",
+        "santarinto/json2html": "^1.0",
+        "mikehaertl/phpwkhtmltopdf": "^2.3",
+        "ezyang/htmlpurifier": "^4.10"
+    }
+}
